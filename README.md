@@ -32,4 +32,4 @@
 - localhost:3000/cars akan membuka Cari Mobil
 
 # FYI UNTUK MENJALANKAN PROGRAM
-- Jalankan "npm run start" di folder frontend
+- Jalankan "npm run start" didalam folder frontend
