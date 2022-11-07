@@ -1,0 +1,47 @@
+// Code was written by Muhammad Sindida Hilmy
+// Semua keterangan ada di README.md
+
+// ================================================== USER =========================================================
+
+// Get All User
+GET http://localhost:5000/v1/api/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsIm5hbWUiOiJNdWhhbW1hZCBTaW5kaWRhIEhpbG15IiwiZW1haWwiOiJoaWxteUBnbWFpbC5jb20iLCJpYXQiOjE2NjY2NzE5NTMsImV4cCI6MTY2NjY3MzE1M30.sU9zDjsw1F2eMz00m4EBIvcpfn70Ckfv-Md-szReOYs
+// Ex: Bearer hilmykjfoeifjad
+
+###
+
+// Register
+POST  http://localhost:5000/v1/api/users
+content-type: application/json
+
+{
+    "name": "Muhammad Sindida Hilmy",
+    "email": "hilmy@gmail.com",
+    "password": "123456",
+    "confmPassword": "123456"
+}
+
+###
+
+// Login
+POST  http://localhost:5000/v1/api/login
+content-type: application/json
+
+{
+    
+    "email": "hilmy@gmail.com",
+    "password": "123456"
+    
+}
+
+###
+
+// Refresh Token
+GET  http://localhost:5000/v1/api/token
+
+###
+
+// Logout
+DELETE http://localhost:5000/v1/api/logout
+
+// ================================================================================================================

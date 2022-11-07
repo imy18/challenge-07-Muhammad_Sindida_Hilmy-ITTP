@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slick-slider{
+    margin: 0 10px;
+}
+  
+   .section-started .card-started {
+    max-width: 1168px;
+    min-height: 290px;
+    background: #0d28a6;
+    border-radius: 13px;
+    padding: 64px 0px 64px 0px;
+  }
